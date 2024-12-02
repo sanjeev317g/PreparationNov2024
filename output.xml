@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.11 on win32)" generated="20241101 16:13:47.955" rpa="false" schemaversion="3">
+<suite id="s1" name="Login" source="c:\Users\SanjeevaKumarGeejula\Documents\preparation\ExitPreparationVS\Preparation\practice\SeleniumNOV1\Login.robot">
+<test id="s1-t1" name="Login Test" line="14">
+<kw name="Open Browsers">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${abc}</arg>
+<arg>${xyz}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20241101 16:13:48.111" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.in/'.</msg>
+<status status="PASS" starttime="20241101 16:13:48.110" endtime="20241101 16:13:51.798"/>
+</kw>
+<status status="PASS" starttime="20241101 16:13:48.109" endtime="20241101 16:13:51.799"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20241101 16:14:01.812" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20241101 16:13:51.800" endtime="20241101 16:14:01.812"/>
+</kw>
+<kw name="Open Browsers">
+<arg>${URL1}</arg>
+<arg>${BROWSER}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${abc}</arg>
+<arg>${xyz}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20241101 16:14:01.818" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20241101 16:14:01.816" endtime="20241101 16:14:04.181"/>
+</kw>
+<status status="PASS" starttime="20241101 16:14:01.814" endtime="20241101 16:14:04.181"/>
+</kw>
+<kw name="Click Login Button">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//span[@id='nav-link-accountList-nav-line-1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20241101 16:14:04.183" level="INFO">Clicking element '//span[@id='nav-link-accountList-nav-line-1']'.</msg>
+<msg timestamp="20241101 16:14:04.303" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-28.png"&gt;&lt;img src="selenium-screenshot-28.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20241101 16:14:04.303" level="FAIL">Element with locator '//span[@id='nav-link-accountList-nav-line-1']' not found.</msg>
+<status status="FAIL" starttime="20241101 16:14:04.182" endtime="20241101 16:14:04.307"/>
+</kw>
+<status status="FAIL" starttime="20241101 16:14:04.182" endtime="20241101 16:14:04.307"/>
+</kw>
+<kw name="Input USERNAME">
+<status status="NOT RUN" starttime="20241101 16:14:04.308" endtime="20241101 16:14:04.309"/>
+</kw>
+<kw name="Click Continue Button">
+<arg>${continue}</arg>
+<status status="NOT RUN" starttime="20241101 16:14:04.309" endtime="20241101 16:14:04.309"/>
+</kw>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20241101 16:13:48.108" endtime="20241101 16:14:04.310">Element with locator '//span[@id='nav-link-accountList-nav-line-1']' not found.</status>
+</test>
+<status status="FAIL" starttime="20241101 16:13:47.960" endtime="20241101 16:14:04.312"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

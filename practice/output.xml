@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.11 on win32)" generated="20241111 21:14:24.028" rpa="false" schemaversion="3">
+<suite id="s1" name="Login1" source="c:\Users\SanjeevaKumarGeejula\Documents\preparation\ExitPreparationVS\Preparation\practice\SeleniumNOV1\Login1.robot">
+<test id="s1-t1" name="Data Driven Test" line="28">
+<kw name="Test with multiple username password">
+<arg>Open Browser</arg>
+<arg>https://practice.expandtesting.com/login</arg>
+<arg>chrome</arg>
+<msg timestamp="20241111 21:14:24.202" level="FAIL">Keyword 'Test with multiple username password' expected 2 arguments, got 3.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.201" endtime="20241111 21:14:24.204"/>
+</kw>
+<kw name="Test with multiple username password">
+<arg>Scroll Element Into View</arg>
+<arg>${login_Button}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241111 21:14:24.206" level="INFO">Typing text 'Scroll Element Into View' into text field '//input[@id='username']'.</msg>
+<msg timestamp="20241111 21:14:24.206" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20241111 21:14:24.206" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.205" endtime="20241111 21:14:24.278"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>${Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20241111 21:14:24.278" endtime="20241111 21:14:24.278"/>
+</kw>
+<status status="FAIL" starttime="20241111 21:14:24.204" endtime="20241111 21:14:24.278"/>
+</kw>
+<kw name="Test with multiple username password">
+<arg>Maximize Browser Window</arg>
+<msg timestamp="20241111 21:14:24.279" level="FAIL">Keyword 'Test with multiple username password' expected 2 arguments, got 1.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.279" endtime="20241111 21:14:24.280"/>
+</kw>
+<kw name="Test with multiple username password">
+<arg>Username</arg>
+<arg>Password</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241111 21:14:24.281" level="INFO">Typing text 'Username' into text field '//input[@id='username']'.</msg>
+<msg timestamp="20241111 21:14:24.281" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20241111 21:14:24.281" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.281" endtime="20241111 21:14:24.282"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>${Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20241111 21:14:24.282" endtime="20241111 21:14:24.282"/>
+</kw>
+<status status="FAIL" starttime="20241111 21:14:24.280" endtime="20241111 21:14:24.283"/>
+</kw>
+<kw name="Test with multiple username password">
+<arg>fkldfkldsjfkl</arg>
+<arg>kfjdsklfj;dkslfjdls</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241111 21:14:24.286" level="INFO">Typing text 'fkldfkldsjfkl' into text field '//input[@id='username']'.</msg>
+<msg timestamp="20241111 21:14:24.286" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20241111 21:14:24.286" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.284" endtime="20241111 21:14:24.286"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>${Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20241111 21:14:24.287" endtime="20241111 21:14:24.287"/>
+</kw>
+<status status="FAIL" starttime="20241111 21:14:24.283" endtime="20241111 21:14:24.287"/>
+</kw>
+<kw name="Test with multiple username password">
+<arg>lsdjfkldsjfkld;sjf</arg>
+<arg>sdjflkdsjflksd</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241111 21:14:24.305" level="INFO">Typing text 'lsdjfkldsjfkld;sjf' into text field '//input[@id='username']'.</msg>
+<msg timestamp="20241111 21:14:24.305" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20241111 21:14:24.305" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.304" endtime="20241111 21:14:24.306"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>${Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20241111 21:14:24.306" endtime="20241111 21:14:24.306"/>
+</kw>
+<status status="FAIL" starttime="20241111 21:14:24.303" endtime="20241111 21:14:24.307"/>
+</kw>
+<kw name="Test with multiple username password">
+<arg>dlfjkdsjflk;dsajf</arg>
+<arg>kldfkdlsjfklds;jf</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241111 21:14:24.345" level="INFO">Typing text 'dlfjkdsjflk;dsajf' into text field '//input[@id='username']'.</msg>
+<msg timestamp="20241111 21:14:24.345" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20241111 21:14:24.345" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.323" endtime="20241111 21:14:24.346"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>${Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20241111 21:14:24.346" endtime="20241111 21:14:24.347"/>
+</kw>
+<status status="FAIL" starttime="20241111 21:14:24.322" endtime="20241111 21:14:24.347"/>
+</kw>
+<kw name="Test with multiple username password">
+<arg>ljsflkdjsklfjdslkf</arg>
+<arg>lds;jflkdsjflk;sdjflkdsjflksd</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241111 21:14:24.348" level="INFO">Typing text 'ljsflkdjsklfjdslkf' into text field '//input[@id='username']'.</msg>
+<msg timestamp="20241111 21:14:24.350" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20241111 21:14:24.350" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.348" endtime="20241111 21:14:24.350"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>${Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20241111 21:14:24.350" endtime="20241111 21:14:24.350"/>
+</kw>
+<status status="FAIL" starttime="20241111 21:14:24.348" endtime="20241111 21:14:24.350"/>
+</kw>
+<kw name="Test with multiple username password">
+<arg>jslkfjdslkfj</arg>
+<arg>lkjfkldsjfkldjsf</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241111 21:14:24.354" level="INFO">Typing text 'jslkfjdslkfj' into text field '//input[@id='username']'.</msg>
+<msg timestamp="20241111 21:14:24.355" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20241111 21:14:24.355" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20241111 21:14:24.353" endtime="20241111 21:14:24.355"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>${Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20241111 21:14:24.356" endtime="20241111 21:14:24.356"/>
+</kw>
+<status status="FAIL" starttime="20241111 21:14:24.352" endtime="20241111 21:14:24.357"/>
+</kw>
+<status status="FAIL" starttime="20241111 21:14:24.201" endtime="20241111 21:14:24.358">Several failures occurred:
+
+1) Keyword 'Test with multiple username password' expected 2 arguments, got 3.
+
+2) No browser is open.
+
+3) Keyword 'Test with multiple username password' expected 2 arguments, got 1.
+
+4) No browser is open.
+
+5) No browser is open.
+
+6) No browser is open.
+
+7) No browser is open.
+
+8) No browser is open.
+
+9) No browser is open.</status>
+</test>
+<status status="FAIL" starttime="20241111 21:14:24.032" endtime="20241111 21:14:24.360"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Login1">Login1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
